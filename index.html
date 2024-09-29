@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MV Fitness</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        padding: 0px;
+        margin: 0px;
+        background: url(pexels-anush-1229356.jpg);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .header {
+        position: sticky;
+        font-size: 50px;
+    }
+
+    .left {
+        display: inline-block;
+        top: 0px;
+        left: 37px;
+        border: none;
+        color: white;
+        position: absolute;
+        padding: 0px 24px;
+        margin: 0px 0px;
+    }
+
+    .mid {
+        display: block;
+        border: 8px solid red;
+        border-radius: 20px;
+        width: 37%;
+        color: white;
+        margin: 20px auto;
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        color: white;
+        right: 37px;
+        top: 0px;
+        border: none
+        padding: 0px 24px;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 50px;
+
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: white;
+        padding: 34px 80px;
+   }
+   .navbar li a:hover,navbar li a:active{
+    text-decoration: underline;
+    color: blue;
+   }
+   .left img{
+    width: 200px;
+    padding-left: 10px;
+    display: ;
+      }
+   .btn{
+    color: white;
+    padding: 4px 14px;
+    margin: 0px 9px;
+    font-size: 20px;
+    background-color: black;
+    font-size: 55px;
+    border: 2px solid yellow;
+    border-radius: 45px;
+    cursor: pointer;
+   }
+   .btn:hover{
+    background-color: grey;
+   }
+   .btn:active{
+    background-color: red;
+   }
+   .container{
+    border: 2px solid red;
+    border-radius: 45px;
+    color: white;
+    width: 45%;
+    margin: 312px 21px;
+    padding: 19px 0px;
+    font-size: 45px;
+    text-align: center;
+   }
+.form input{
+    text-align: center;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 20px 325px;
+    margin: 36px auto;
+    border: 2px solid red;
+    font-size: 50px;
+    background-color: white
+}
+.btn1{
+    padding: 20px 588px;
+    margin: 75px 443px;
+    border: 2px solid red;
+    font-size: 50px;
+    display: block;
+    background-color: black;
+    color: white;
+}
+</style>
+
+<body>
+    <header class="header">
+        <!-- this is for logo -->
+        <div class="left">
+         <img src="Logo.webp" alt="">
+         <div style="text-align: center;">
+         </div>
+        </div>
+        <!-- this is for navbar -->
+        <div class="mid">
+        <ul class="navbar">
+            <li><a href="https://www.wikipedia.org/" target="_blank">Home</a></li>
+            <li><a href="https://www.collinsdictionary.com/dictionary/english/gym#:~:text=A%20gym%20is%20a%20large,out%20in%20the%20hotel%20gym.">About</a></li>
+            <li><a href="https://www.calculator.net/fitness-and-health-calculator.html">Fitness Calculator</a></li>
+            <li><a href=Contact Us">Contact Us</a></li>
+        </ul>
+        </div>
+        <!-- this is for buttons -->
+        <div class="right">
+            <button class="btn">Email Us</button>
+            <button class="btn">Call Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM IN SATARA NOW</h1>
+        <form action="noaction">
+        <div class="form">
+            <input type="text" placeholder="Enter Your Name">
+        </div>
+        <div class="form">
+            <input type="number" placeholder="Enter Your Age">
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter Your Gender" >
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter Your Locality">
+        </div>
+        <div class="form">
+            <input type="number" placeholder="Enter Your Number">
+        </div>
+        <button class="btn1">Submit</button>
+        </form>
+    </div>
+  
+
+</html>
